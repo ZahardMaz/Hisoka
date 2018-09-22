@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'nerissemibold';
+    src: url('Neris-SemiBold-webfont.eot');
+    src: url('Neris-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Neris-SemiBold-webfont.woff2') format('woff2'),
+         url('Neris-SemiBold-webfont.woff') format('woff'),
+         url('Neris-SemiBold-webfont.ttf') format('truetype'),
+         url('Neris-SemiBold-webfont.svg#nerissemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #FF5800;
+	overflow: hidden;
+	background: url("test5.jpg") fixed no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	max-height: auto;
+	font-family: calibri, sans-serif;
+}
+
+h2, h1
+{
+	text-decoration: underline;
+	font-family: nerissemibold;
+}
+
+li
+{
+	height: 2.2em;
+}
+
+#grid
+{
+	display: grid;
+	grid-template-columns: 1fr 18% 2% 5fr 5fr 1fr;
+	grid-template-rows: 1fr;
+}
+
+.image
+{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-left: 8%;
+	box-shadow: 2px 10px 4px #D6D8E8;
+}
+
+.image:hover
+{
+	box-shadow: 6px 14px 5px #D6D8E8;
+	padding-right: 2px;
+}
+
+.portrait
+{
+	grid-column: 2;
+	grid-row: 1/ span 6;
+	box-shadow: 5px 8px 8px #D6D8E8;
+	text-align: center;
+	background-color: white;
+}
+
+.nen
+{
+	width: 60px;
+	height: 60px;
+	border: 2px #D6D8E8 inset;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 3px 5px 3px #D6D8E8;
+	margin-bottom: 10px;
+	font-weight: bold;
+	background-color: white;
+}
+
+#corp
+{
+	grid-column: 4/ span 2;
+	grid-row: 1;
+	margin-top: 150px;
+	margin-left: 20px;
+}
+
+.qualitee
+{
+	grid-column: 4/ span 2;
+	grid-row: 1;
+	margin-left: 5%;
+}
+
+.qualitee2
+{
+	grid-column: 4/ span 2;
+	grid-row: 1;
+	margin-left: 15%;
+	margin-top: 10%;
+}
+
+.qualitee3
+{
+	grid-column: 4/ span 2;
+	grid-row: 1;
+	margin-left: 25%;
+}
+
+.qualitee4
+{
+	grid-column: 4/ span 2;
+	grid-row: 1;
+	margin-left: 40%;
+	margin-top: 10%;
+}
+
+.qualitee5
+{
+	grid-column: 4/ span 2;
+	grid-row: 1;
+	margin-left: 55%;
+}
+
+.qualitee6
+{
+	grid-column: 4/ span 2;
+	grid-row: 1;
+	margin-left: 75%;
+	margin-top: 10%;
+}
+
+.experience
+{
+	border: 2px #F0F0F0 solid;
+	box-shadow: 2px 3px 2px #D6D8E8;
+	text-decoration: none!important;
+	background-color: white;
+	text-align: center;
+}
+
+.info
+{
+	height: 18%;
+	text-align: none!important;
+	font-family: Arial;
+	margin-left: 8%;
+	font-size: 17px;
+}
